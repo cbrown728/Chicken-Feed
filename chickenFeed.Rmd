@@ -1,7 +1,7 @@
 ---
 title: "Chicken Feed"
-author: "put your name here"
-date: "2/29/2020"
+author: "Cindella Brown"
+date: "3/03/2020"
 output: html_document
 ---
 
@@ -36,6 +36,14 @@ attach(chickenData)
 ### Graphical summary
 
 <!-- plot chicken weight against each of the three explanatory variables.  weight against a categorial varable is a boxplot, weight against a numerical variable is a scatter plot !-->
+
+boxplot of weight based on feed
+
+```{r}
+plot(weight~feed,data=chickenData)
+```
+
+
 
 
 ### Numerical summary
